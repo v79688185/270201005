@@ -1,7 +1,33 @@
-velocity1 = 80
-velocity2 = 70
-distance1 = 490
-distance2 = 150
-hour = (distance1 - distance2) / (velocity1 + velocity2 )
-minutes = hour * 60
-print(minutes)
+gpa = int(input("Enter the gpa:" ))
+num_of_Lectures = int(input("Enter the number: "))
+if gpa <= 2.0 :
+  if num_of_Lectures < 47: 
+  print("not enough number of lectures for gpa")
+  else:
+    print("not enough gpa")
+else:
+   gpa >= 2.0
+   if num_of_Lectures < 47
+   print("not enough number of lectures")
+   else:
+     print("Graduated")
+
+
+  
+  
+
+
+
+
+
+
+
+
+    
+
+  
+
+
+
+
+
