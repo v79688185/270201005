@@ -1,16 +1,48 @@
-age = int(input("Enter your age: "))
-normal_ticket_price = 3
-discount=50
-if age<6 and age>60:
-  print("free")
-else:
-  if age>=6 and age<=18:
-    discount_ticket_price=normal_ticket_price - normal_ticket_price*(1-(50/100))
-    print(discount_ticket_price)
-  else:
-    print(normal_ticket_price)
+import random
+number = random.randint(0,5) 
+value = int(input("Sayı giriniz: "))
+tries=0
+while value != number:
+  value = int(input("Bu sayı yanlış, tekrar dene: "))
+  tries += 1
+  if tries > 1:
+    print("KAYBETTİN")
+print("bravo doğru sayı")  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
+  
+
+
+
+
+
+     
     
+
+
+  
+
+
+
  
 
 
